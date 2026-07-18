@@ -59,7 +59,7 @@ function App() {
   const handeleadd = () => {
     settodos([...todos, { Id: uuidv4(), todo, isCompleted: false }])
     settodo("")
-    toast('Task Saved Successfully', {
+    toast('Task added successfully!', {
                 position: "top-right",
                 autoClose: 2000,
                 hideProgressBar: false,
